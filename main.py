@@ -13,7 +13,7 @@ port = server_sock.getsockname()[1]
 
 uuid = "347fb489-38fb-4325-898b-ec28b40c3c46"
 
-advertise_service(server_sock, "Raspberry-Pi",
+advertise_service(server_sock, "Bluetooth-Server-Shell",
                   service_id=uuid,
                   service_classes=[uuid, SERIAL_PORT_CLASS],
                   profiles=[SERIAL_PORT_PROFILE],
